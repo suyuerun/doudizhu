@@ -1,10 +1,8 @@
 <template>
   <el-row>
-    <el-col :span='6'>&nbsp;</el-col>
-    <el-col :span='12'>
+    <el-col :span='24'>
       <router-view></router-view>
     </el-col>
-    <el-col :span='6'>&nbsp;</el-col>
   </el-row>
   <table
 </template>

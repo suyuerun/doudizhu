@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import GameStart from '@/components/GameStart'
+import GameStart from '@/components//user/GameStart'
 import Register from '@/components/user/Register'
 import GameHill from '@/components/hill/GameHill'
-
+import Room from '@/components/room/Room'
 Vue.use(Router)
 
 export default new Router({
@@ -23,6 +23,11 @@ export default new Router({
       path:'/gamehill',
       name:'gamehill',
       component:GameHill
+    },
+    {
+    	 path:'/room',
+      name:'room',
+      component:Room
     }
   ]
 })

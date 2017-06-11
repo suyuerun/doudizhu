@@ -14,6 +14,7 @@ var session = require('koa-generic-session');
 const index = require('./routes/index');
 const users = require('./routes/users');
 const hall = require('./routes/hall');
+const room = require('./routes/room');
 
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;  //初始化
@@ -45,6 +46,7 @@ app.use(cors()); //放到route前面
 router.use('/', index.routes(), index.allowedMethods());
 router.use('/users', users.routes(), users.allowedMethods());
 router.use('/hall', hall.routes(), hall.allowedMethods());
+router.use('/room', room.routes(), room.allowedMethods());
 
 app.use(router.routes(), router.allowedMethods());
 // response

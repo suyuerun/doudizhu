@@ -1,0 +1,1 @@
+[2017-05-24 16:11:32.579] [INFO] admin-log - [32m[E:\DATA\soway\WWW\pomelo\HelloWorld\game-server\node_modules\pomelo\lib\master\master.js] [39m{"action":"execute","moduleId":"__console__","method":"clientHandler","msg":{"signal":"list","clientId":"pomelo_list_1495613492530","username":"admin"}}
